@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.12rem;
+}
+
+body,
+html {
+    height: 100vh !important;
+}
+body {
+    /* min-height: 100vh !important; */
+    background-color: rgb(141, 1, 18) !important;
+    text-align: center !important;
+    
+}
+
+a {
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+li {
+    padding: 4px !important;
+    width: 12vw !important;
+    text-align: center !important;
+}
+
+.btn {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-transform: none !important;
+    width: 6vw !important;
+    height: 2rem !important;
+}
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.ulll {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-bottom: 1px solid rgb(8, 215, 8) !important;
+    border-top: 1px solid rgb(8, 215, 8) !important;
+    width: 100vw !important;
+    height: 10vh !important;
+}
+.container {
+
+    max-height: 100vh !important;
+}
+
+ul {
+    display: flex;
+    justify-content: center !important;
+}
+#main {
+    display: block !important;
+    min-height: 100% !important;
+    overflow: scroll !important;
+    margin: auto !important;
+}
+
+table {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid rgb(8, 215, 8) !important;
+    border-radius: 5px !important;
+}
+
+.formStyle {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    color: white !important;
+    border: solid 1px rgb(8, 215, 8) !important;
+}
+
+h4 {
+    text-align: center;
+    color: white !important;
+    padding: 4px;
+    text-transform: uppercase  !important;
+    margin-top: 30px !important;
+    margin-bottom : 20px !important;
+}
+
+footer {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 10vh !important;
+    color: white;
+    width: 100vw !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(8, 215, 8) !important;
+    border-top: 1px solid rgb(8, 215, 8) !important;
+}
